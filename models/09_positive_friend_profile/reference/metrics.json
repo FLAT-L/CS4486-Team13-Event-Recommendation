@@ -1,0 +1,132 @@
+{
+  "completed": true,
+  "folds": [
+    {
+      "fold": 1,
+      "map200": 0.7215392381345744,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "reg_lambda": 3,
+        "reg_alpha": 0.0,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "n_estimators": 1200
+      },
+      "encoded_dimensions": 382,
+      "rows": 3019,
+      "users": 407
+    },
+    {
+      "fold": 2,
+      "map200": 0.7392114239537763,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "reg_lambda": 3,
+        "reg_alpha": 0.0,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "n_estimators": 1200
+      },
+      "encoded_dimensions": 374,
+      "rows": 3108,
+      "users": 407
+    },
+    {
+      "fold": 3,
+      "map200": 0.7223040555631045,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "reg_lambda": 3,
+        "reg_alpha": 0.0,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "n_estimators": 1200
+      },
+      "encoded_dimensions": 388,
+      "rows": 3103,
+      "users": 407
+    },
+    {
+      "fold": 4,
+      "map200": 0.7378587967869661,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "reg_lambda": 3,
+        "reg_alpha": 0.0,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "n_estimators": 1200
+      },
+      "encoded_dimensions": 385,
+      "rows": 3010,
+      "users": 407
+    },
+    {
+      "fold": 5,
+      "map200": 0.7183910348564349,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 3,
+        "reg_lambda": 3,
+        "reg_alpha": 0.0,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "n_estimators": 1200
+      },
+      "encoded_dimensions": 378,
+      "rows": 3158,
+      "users": 406
+    }
+  ],
+  "oof_map200": 0.727865565648058,
+  "cleaning": {
+    "mode": "provided_features_without_plus_cleaning",
+    "source": "/Users/flatlch/Documents/ChatGPT/CS4486/\u5b9e\u9a8c 09 \u539f\u59cb\u6d3b\u52a8\u597d\u53cb\u753b\u50cf/outputs/features.pkl",
+    "rows": 25635,
+    "original_inputs_identical": true,
+    "retained_original_inputs_identical": true,
+    "removed_original_columns": [],
+    "columns": 246,
+    "duplicate_train_pairs_retained": 178
+  },
+  "elapsed_seconds": 194.8998943750048
+}

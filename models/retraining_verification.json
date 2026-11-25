@@ -1,0 +1,22 @@
+{
+  "02_xgboost_baseline": {
+    "exact_features": true,
+    "max_numeric_difference": 0.0,
+    "retrained_map200": 0.7213396255284131
+  },
+  "05_xgboost_plus": {
+    "exact_features": true,
+    "max_numeric_difference": 0.0,
+    "retrained_map200": 0.7296271691661337
+  },
+  "09_positive_friend_profile": {
+    "exact_features": false,
+    "max_numeric_difference": 1.9073486328125e-06,
+    "retrained_map200": 0.727865565648058
+  },
+  "15_negative_friend_profile": {
+    "exact_features": false,
+    "max_numeric_difference": 1.430511474609375e-06,
+    "retrained_map200": 0.7314270135923073
+  }
+}

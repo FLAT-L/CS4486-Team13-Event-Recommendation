@@ -1,0 +1,62 @@
+{
+  "platform": "macOS Apple Silicon",
+  "offline_fresh_install": "passed",
+  "pip_check": "passed",
+  "jupyter_kernel_execution": "passed",
+  "original_project_imports": false,
+  "reference_model_checks": {
+    "01_reconstructed_baseline": {
+      "map200": 0.7044927571173687,
+      "reference_map200": 0.7044927571173687,
+      "max_prediction_difference_or_01_score_difference": 0.0,
+      "seconds": 53.862650871276855
+    },
+    "02_xgboost_baseline": {
+      "map200": 0.7213396255284131,
+      "reference_map200": 0.7213396255284131,
+      "max_prediction_difference_or_01_score_difference": 1.1102230246251565e-16,
+      "seconds": 0.3745551109313965
+    },
+    "05_xgboost_plus": {
+      "map200": 0.7296271691661337,
+      "reference_map200": 0.7296271691661337,
+      "max_prediction_difference_or_01_score_difference": 1.1102230246251565e-16,
+      "seconds": 0.46026015281677246
+    },
+    "09_positive_friend_profile": {
+      "map200": 0.727865565648058,
+      "reference_map200": 0.727865565648058,
+      "max_prediction_difference_or_01_score_difference": 1.1102230246251565e-16,
+      "seconds": 0.5460939407348633
+    },
+    "15_negative_friend_profile": {
+      "map200": 0.7314270135923073,
+      "reference_map200": 0.7314270135923073,
+      "max_prediction_difference_or_01_score_difference": 1.1102230246251565e-16,
+      "seconds": 0.4618988037109375
+    }
+  },
+  "raw_feature_retraining": {
+    "02_xgboost_baseline": {
+      "exact_features": true,
+      "max_numeric_difference": 0.0,
+      "retrained_map200": 0.7213396255284131
+    },
+    "05_xgboost_plus": {
+      "exact_features": true,
+      "max_numeric_difference": 0.0,
+      "retrained_map200": 0.7296271691661337
+    },
+    "09_positive_friend_profile": {
+      "exact_features": false,
+      "max_numeric_difference": 1.9073486328125e-06,
+      "retrained_map200": 0.727865565648058
+    },
+    "15_negative_friend_profile": {
+      "exact_features": false,
+      "max_numeric_difference": 1.430511474609375e-06,
+      "retrained_map200": 0.7314270135923073
+    }
+  },
+  "experiment_01_raw_preprocessing": "Code included; not rerun in this packaging pass. Five folds retrained from the packaged historical feature cache."
+}

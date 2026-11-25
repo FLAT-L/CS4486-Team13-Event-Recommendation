@@ -1,0 +1,15 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+models/data/
+models/environment/python/
+models/environment/wheels/
+models/environment/.venv/
+*.pkl
+*.pt
+*.ubj
+*.npy
+*.npz
+*.csv
+*.csv.gz
+*.zip

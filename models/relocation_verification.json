@@ -1,0 +1,82 @@
+{
+  "relocated_directory": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models",
+  "checks": {
+    "01_reconstructed_baseline": {
+      "score": 0.7044927571173687,
+      "python": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/bin/python",
+      "prefix": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv",
+      "old_project_reads": [],
+      "native_libraries": [
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/lib/libomp.dylib",
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib"
+      ],
+      "expected_score": 0.7044927571173687,
+      "score_matches": true,
+      "interpreter_inside_copy": true,
+      "no_original_project_reads": true,
+      "native_libraries_inside_copy": true
+    },
+    "02_xgboost_baseline": {
+      "score": 0.7213396255284131,
+      "python": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/bin/python",
+      "prefix": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv",
+      "old_project_reads": [],
+      "native_libraries": [
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/lib/libomp.dylib",
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib"
+      ],
+      "expected_score": 0.7213396255284131,
+      "score_matches": true,
+      "interpreter_inside_copy": true,
+      "no_original_project_reads": true,
+      "native_libraries_inside_copy": true
+    },
+    "05_xgboost_plus": {
+      "score": 0.7296271691661337,
+      "python": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/bin/python",
+      "prefix": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv",
+      "old_project_reads": [],
+      "native_libraries": [
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/lib/libomp.dylib",
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib"
+      ],
+      "expected_score": 0.7296271691661337,
+      "score_matches": true,
+      "interpreter_inside_copy": true,
+      "no_original_project_reads": true,
+      "native_libraries_inside_copy": true
+    },
+    "09_positive_friend_profile": {
+      "score": 0.727865565648058,
+      "python": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/bin/python",
+      "prefix": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv",
+      "old_project_reads": [],
+      "native_libraries": [
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/lib/libomp.dylib",
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib"
+      ],
+      "expected_score": 0.727865565648058,
+      "score_matches": true,
+      "interpreter_inside_copy": true,
+      "no_original_project_reads": true,
+      "native_libraries_inside_copy": true
+    },
+    "15_negative_friend_profile": {
+      "score": 0.7314270135923073,
+      "python": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/bin/python",
+      "prefix": "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv",
+      "old_project_reads": [],
+      "native_libraries": [
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/lib/libomp.dylib",
+        "/private/tmp/cs4486_relocation_20261107_rd5wkeyx/models/environment/.venv/lib/python3.12/site-packages/sklearn/.dylibs/libomp.dylib"
+      ],
+      "expected_score": 0.7314270135923073,
+      "score_matches": true,
+      "interpreter_inside_copy": true,
+      "no_original_project_reads": true,
+      "native_libraries_inside_copy": true
+    }
+  },
+  "date": "2026-11-07",
+  "scope": "A copied package was bootstrapped offline at a new path. All five notebooks ran sections 1\u20133 in actual Jupyter kernels. Model 01 retrained from cached historical features; the four XGBoost notebooks reloaded saved estimators. Raw feature reconstruction and XGBoost retraining were previously verified in the original package."
+}

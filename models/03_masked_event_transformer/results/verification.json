@@ -1,0 +1,19 @@
+{
+  "folds": 5,
+  "rows": 15398,
+  "device": "cpu",
+  "observed_map200": 0.7173249026800766,
+  "reference_map200": 0.7173249026800766,
+  "maximum_probability_difference": 1.1102230246251565e-16,
+  "maximum_representation_difference": 5.960464477539062e-07,
+  "cpu_end_to_end_map200": 0.7174939778076694,
+  "cached_features_five_fold_retrain_map200": 0.7173249026800766,
+  "raw_catalog_encoding": {
+    "rows": 3137972,
+    "columns": 115,
+    "mismatch": 0,
+    "ids_match": true,
+    "finite_small_training": true
+  },
+  "offline_zip_check": "Extracted into a new directory, installed the bundled wheels without network access, and ran notebook sections 1-3 with the extracted interpreter."
+}

@@ -1,0 +1,21 @@
+{
+  "source_rows": 3137972,
+  "target_users": 2034,
+  "candidate_events": 8846,
+  "relevant_people": 1809758,
+  "location_users_covered": 1939,
+  "location_events_covered": 5291,
+  "missing_profiles": {
+    "friends_taste": 19,
+    "friends_hate": 116,
+    "user_invited": 1448,
+    "prototype": 19
+  },
+  "label_policy": "预处理从不读取 interested/not_interested；不注入训练或公开测试答案。",
+  "cluster_sizes": [
+    8,
+    20,
+    40
+  ],
+  "seed": 42
+}

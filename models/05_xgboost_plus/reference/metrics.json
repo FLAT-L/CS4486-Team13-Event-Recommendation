@@ -1,0 +1,146 @@
+{
+  "completed": true,
+  "folds": [
+    {
+      "fold": 1,
+      "map200": 0.7298302752117687,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "reg_lambda": 5,
+        "reg_alpha": 0.0,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "n_estimators": 900
+      },
+      "encoded_dimensions": 279,
+      "rows": 3019,
+      "users": 407
+    },
+    {
+      "fold": 2,
+      "map200": 0.7413486161554026,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "reg_lambda": 5,
+        "reg_alpha": 0.0,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "n_estimators": 900
+      },
+      "encoded_dimensions": 271,
+      "rows": 3108,
+      "users": 407
+    },
+    {
+      "fold": 3,
+      "map200": 0.7249876130422778,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "reg_lambda": 5,
+        "reg_alpha": 0.0,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "n_estimators": 900
+      },
+      "encoded_dimensions": 285,
+      "rows": 3103,
+      "users": 407
+    },
+    {
+      "fold": 4,
+      "map200": 0.739315499360381,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "reg_lambda": 5,
+        "reg_alpha": 0.0,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "n_estimators": 900
+      },
+      "encoded_dimensions": 282,
+      "rows": 3010,
+      "users": 407
+    },
+    {
+      "fold": 5,
+      "map200": 0.712612035836441,
+      "parameters": {
+        "learning_rate": 0.03,
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "tree_method": "hist",
+        "max_bin": 256,
+        "n_jobs": 4,
+        "random_state": 42,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "reg_lambda": 5,
+        "reg_alpha": 0.0,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "n_estimators": 900
+      },
+      "encoded_dimensions": 275,
+      "rows": 3158,
+      "users": 406
+    }
+  ],
+  "oof_map200": 0.7296271691661337,
+  "cleaning": {
+    "rows": 25635,
+    "original_columns": 142,
+    "changes": {
+      "age_outside_range": 0,
+      "lat_outside_range": 0,
+      "lng_outside_range": 0,
+      "timezone_outside_range": 0,
+      "negative_tenure": 28,
+      "user_locale_normalized": 0,
+      "user_gender_normalized": 0,
+      "event_city_normalized": 8,
+      "event_state_normalized": 0,
+      "event_country_normalized": 0,
+      "location_matches_city_boundary_corrected": 126,
+      "location_matches_state_boundary_corrected": 1800,
+      "location_matches_country_boundary_corrected": 0
+    },
+    "final_columns": 143,
+    "rows_preserved": true,
+    "all_original_columns_preserved": true,
+    "negative_lead_hours_retained": 1841,
+    "duplicate_train_pairs_retained": 178
+  },
+  "elapsed_seconds": 55.20281787501881
+}

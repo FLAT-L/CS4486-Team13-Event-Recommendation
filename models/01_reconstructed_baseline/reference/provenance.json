@@ -1,0 +1,17 @@
+{
+  "upstream_commit": "4eaf58b87cd616e249bb81497fe90fc1ae5afcaa",
+  "raw_sha256": {
+    "train.csv": "d8af0a2d5b9b1e73790649fd68f942ef8013999dae7c57c3657f55da9ffd6053",
+    "test.csv": "aecbfee48e271750fb28d79dc0b2b3164165b28214a583face68d6e200e66655",
+    "users.csv": "ebe0244637584624b7cdd398c600ee6f0c7b58de0bfe5008b86a2604f41272fe",
+    "events.csv.gz": "f7b0624270c86a9d526de80746a05741ed4d251e1559c34082849f94b1556e85",
+    "user_friends.csv.gz": "8f2c026286965cff1a4f067460eeff9a6dda9400b18dddfb70baf8e141a57877",
+    "event_attendees.csv": "cd9dce62ae79ea483873cac1f40dba44e946cd3f904c5047a2657893803760a0"
+  },
+  "files": {
+    "olariu/main.py": "25ac38a1536e532c7161cdfc711209c3ae1f3e43c1660eb606121505e113c28b",
+    "olariu/model.py": "a0c6257b2cc5a0ebcaad5692b98befe9ec601d90fd6f585df28951fc0db281a6",
+    "olariu/eval.py": "4fdd898fb3d12258947beb064ca48e81339281143f863031d9ea76932f76833f",
+    "olariu/preprocess.py": "d8447f64b7bee912ec7bed43b5a42bbc8306c376fd0d5ee0b0e4e8bb71faa1e6"
+  }
+}
